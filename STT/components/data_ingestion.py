@@ -79,8 +79,7 @@ class DataIngestion:
     def initiate_data_ingestion(self)->DataIngestionArtifacts:
 
         try: 
-            logging.info('Initiating the data ingestion componenet')
-
+            logging.info('Initiating the data ingestion component')
             self.get_data_from_cloud()
             self.unzip_data()
 
