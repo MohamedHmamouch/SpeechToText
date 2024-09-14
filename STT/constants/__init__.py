@@ -30,3 +30,10 @@ MAX_TARGET_LENGTH=5
 MODEL_TRAINER_ARTIFACT_DIR: str="model_trainer_artifact"
 SAVED_MODEL_DIR:str="saved_model/"
 EPOCHS:int=1
+
+
+#Model Evaluation realted to constants:
+
+MODEL_EVALUATION_ARTIFACT_DIR:str="model_evaluation_artifact"
+S3_BUCKET_URI="s3//prjt-speech-to-text/model/"
+S3_MODEL_DIR_NAME="s3_model/"
